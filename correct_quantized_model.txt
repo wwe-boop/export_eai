@@ -1,0 +1,687 @@
+{
+    "activation_encodings": {
+        "/model/fsmn_layer_0/affine/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 4.382082462310791,
+                "min": -4.382215976715088,
+                "offset": -32768,
+                "scale": 0.00013373461843002588
+            }
+        ],
+        "/model/fsmn_layer_0/affine/linear#1.end/Add_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 4.382082462310791,
+                "min": -4.382215976715088,
+                "offset": -32768,
+                "scale": 0.00013373461843002588
+            }
+        ],
+        "/model/fsmn_layer_0/fsmn_block/Concat_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.694222927093506,
+                "min": -3.694335699081421,
+                "offset": -32768,
+                "scale": 0.00011274217831669375
+            }
+        ],
+        "/model/fsmn_layer_0/fsmn_block/Squeeze_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.7180073261260986,
+                "min": -3.718120813369751,
+                "offset": -32768,
+                "scale": 0.00011346804240019992
+            }
+        ],
+        "/model/fsmn_layer_0/fsmn_block/conv_left/Conv_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.8862545490264893,
+                "min": -3.8863730430603027,
+                "offset": -32768,
+                "scale": 0.00011860269296448678
+            }
+        ],
+        "/model/fsmn_layer_0/linear/linear/MatMul_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.694222927093506,
+                "min": -3.694335699081421,
+                "offset": -32768,
+                "scale": 0.00011274217831669375
+            }
+        ],
+        "/model/fsmn_layer_0/relu/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 4.382082462310791,
+                "min": -4.382215976715088,
+                "offset": -32768,
+                "scale": 0.00013373461843002588
+            }
+        ],
+        "/model/fsmn_layer_1/affine/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.582716226577759,
+                "min": -2.5827951431274414,
+                "offset": -32768,
+                "scale": 7.882065256126225e-05
+            }
+        ],
+        "/model/fsmn_layer_1/affine/linear#1.end/Add_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 5.828860759735107,
+                "min": -5.829038619995117,
+                "offset": -32768,
+                "scale": 0.00017788814147934318
+            }
+        ],
+        "/model/fsmn_layer_1/fsmn_block/Concat_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.913715362548828,
+                "min": -2.913804292678833,
+                "offset": -32768,
+                "scale": 8.892225014278665e-05
+            }
+        ],
+        "/model/fsmn_layer_1/fsmn_block/Squeeze_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.462510108947754,
+                "min": -3.462615728378296,
+                "offset": -32768,
+                "scale": 0.00010567064600763842
+            }
+        ],
+        "/model/fsmn_layer_1/fsmn_block/conv_left/Conv_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.0881872177124023,
+                "min": -2.0882508754730225,
+                "offset": -32768,
+                "scale": 6.372835923684761e-05
+            }
+        ],
+        "/model/fsmn_layer_1/linear/linear/MatMul_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.913715362548828,
+                "min": -2.913804292678833,
+                "offset": -32768,
+                "scale": 8.892225014278665e-05
+            }
+        ],
+        "/model/fsmn_layer_1/relu/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.582716226577759,
+                "min": -2.5827951431274414,
+                "offset": -32768,
+                "scale": 7.882065256126225e-05
+            }
+        ],
+        "/model/fsmn_layer_2/affine/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 1.447536587715149,
+                "min": -1.4475808143615723,
+                "offset": -32768,
+                "scale": 4.4176660594530404e-05
+            }
+        ],
+        "/model/fsmn_layer_2/affine/linear#1.end/Add_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.7427661418914795,
+                "min": -2.742849826812744,
+                "offset": -32768,
+                "scale": 8.370513387490064e-05
+            }
+        ],
+        "/model/fsmn_layer_2/fsmn_block/Concat_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.865642547607422,
+                "min": -2.865730047225952,
+                "offset": -32768,
+                "scale": 8.745514060137793e-05
+            }
+        ],
+        "/model/fsmn_layer_2/fsmn_block/Squeeze_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.3506691455841064,
+                "min": -2.350740909576416,
+                "offset": -32768,
+                "scale": 7.173891935963184e-05
+            }
+        ],
+        "/model/fsmn_layer_2/fsmn_block/conv_left/Conv_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 1.6998950242996216,
+                "min": -1.6999468803405762,
+                "offset": -32768,
+                "scale": 5.187826172914356e-05
+            }
+        ],
+        "/model/fsmn_layer_2/linear/linear/MatMul_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.865642547607422,
+                "min": -2.865730047225952,
+                "offset": -32768,
+                "scale": 8.745514060137793e-05
+            }
+        ],
+        "/model/fsmn_layer_2/relu/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 1.447536587715149,
+                "min": -1.4475808143615723,
+                "offset": -32768,
+                "scale": 4.4176660594530404e-05
+            }
+        ],
+        "/model/fsmn_layer_3/affine/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.2805511951446533,
+                "min": -3.280651330947876,
+                "offset": -32768,
+                "scale": 0.00010011753329308704
+            }
+        ],
+        "/model/fsmn_layer_3/affine/linear#1.end/Add_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.2805511951446533,
+                "min": -3.280651330947876,
+                "offset": -32768,
+                "scale": 0.00010011753329308704
+            }
+        ],
+        "/model/fsmn_layer_3/fsmn_block/Concat_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 1.8809412717819214,
+                "min": -1.8809987306594849,
+                "offset": -32768,
+                "scale": 5.740352571592666e-05
+            }
+        ],
+        "/model/fsmn_layer_3/fsmn_block/Squeeze_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.861445903778076,
+                "min": -2.8615331649780273,
+                "offset": -32768,
+                "scale": 8.732706191949546e-05
+            }
+        ],
+        "/model/fsmn_layer_3/fsmn_block/conv_left/Conv_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 1.8327332735061646,
+                "min": -1.8327891826629639,
+                "offset": -32768,
+                "scale": 5.5932287068571895e-05
+            }
+        ],
+        "/model/fsmn_layer_3/linear/linear/MatMul_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 1.8623180389404297,
+                "min": -1.8623749017715454,
+                "offset": -32768,
+                "scale": 5.683517156285234e-05
+            }
+        ],
+        "/model/fsmn_layer_3/relu/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.2805511951446533,
+                "min": -3.280651330947876,
+                "offset": -32768,
+                "scale": 0.00010011753329308704
+            }
+        ],
+        "/model/in_linear1/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 1.3196525573730469,
+                "min": -1.319692850112915,
+                "offset": -32768,
+                "scale": 4.02738296543248e-05
+            }
+        ],
+        "/model/in_linear1/linear#1.end/Add_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 1.3196525573730469,
+                "min": -1.319692850112915,
+                "offset": -32768,
+                "scale": 4.02738296543248e-05
+            }
+        ],
+        "/model/in_linear2/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 1.6565437316894531,
+                "min": -1.6565942764282227,
+                "offset": -32768,
+                "scale": 5.055524525232613e-05
+            }
+        ],
+        "/model/in_linear2/linear#1.end/Add_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.002131938934326,
+                "min": -3.002223491668701,
+                "offset": -32768,
+                "scale": 9.162058995570987e-05
+            }
+        ],
+        "/model/out_linear1/Relu_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.8542706966400146,
+                "min": -2.8543577194213867,
+                "offset": -32768,
+                "scale": 8.7108084699139e-05
+            }
+        ],
+        "/model/out_linear1/linear#1.end/Add_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 2.8542706966400146,
+                "min": -2.8543577194213867,
+                "offset": -32768,
+                "scale": 8.7108084699139e-05
+            }
+        ],
+        "/model/out_linear2/linear#1.end/Add_output_0": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 3.9861338138580322,
+                "min": -3.986255407333374,
+                "offset": -32768,
+                "scale": 0.00012165086081949994
+            }
+        ],
+        "257": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.06329118460416794,
+                "min": -0.06329311430454254,
+                "offset": -32768,
+                "scale": 1.931552560563432e-06
+            }
+        ],
+        "258": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.06329118460416794,
+                "min": -0.06329311430454254,
+                "offset": -32768,
+                "scale": 1.931552560563432e-06
+            }
+        ],
+        "259": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.06329118460416794,
+                "min": -0.06329311430454254,
+                "offset": -32768,
+                "scale": 1.931552560563432e-06
+            }
+        ],
+        "260": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.06329118460416794,
+                "min": -0.06329311430454254,
+                "offset": -32768,
+                "scale": 1.931552560563432e-06
+            }
+        ],
+        "261": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.06329118460416794,
+                "min": -0.06329311430454254,
+                "offset": -32768,
+                "scale": 1.931552560563432e-06
+            }
+        ],        
+        "t.1": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.49111422896385193,
+                "min": -0.49112921953201294,
+                "offset": -32768,
+                "scale": 1.498807432653848e-05
+            }
+        ],
+        "t.3": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.49111422896385193,
+                "min": -0.49112921953201294,
+                "offset": -32768,
+                "scale": 1.498807432653848e-05
+            }
+        ],
+        "t.5": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.49111422896385193,
+                "min": -0.49112921953201294,
+                "offset": -32768,
+                "scale": 1.498807432653848e-05
+            }
+        ],
+        "t.7": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.49111422896385193,
+                "min": -0.49112921953201294,
+                "offset": -32768,
+                "scale": 1.498807432653848e-05
+            }
+        ],
+        "t.9": [
+            {
+                "bitwidth": 16,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.49111422896385193,
+                "min": -0.49112921953201294,
+                "offset": -32768,
+                "scale": 1.498807432653848e-05
+            }
+        ]
+    },
+    "excluded_layers": [],
+    "param_encodings": {
+        "model.fsmn_layer_0.affine.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.8080436587333679,
+                "min": -0.8144062161445618,
+                "offset": -128,
+                "scale": 0.006362548563629389
+            }
+        ],
+        "model.fsmn_layer_0.fsmn_block.conv_left.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.5963592529296875,
+                "min": -0.6010549664497375,
+                "offset": -128,
+                "scale": 0.004695741925388575
+            }
+        ],
+        "model.fsmn_layer_0.linear.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.8843134641647339,
+                "min": -0.8912765383720398,
+                "offset": -128,
+                "scale": 0.006963097956031561
+            }
+        ],
+        "model.fsmn_layer_1.affine.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.6481816172599792,
+                "min": -0.6532853841781616,
+                "offset": -128,
+                "scale": 0.005103792063891888
+            }
+        ],
+        "model.fsmn_layer_1.fsmn_block.conv_left.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.6701629161834717,
+                "min": -0.6754397749900818,
+                "offset": -128,
+                "scale": 0.005276873242110014
+            }
+        ],
+        "model.fsmn_layer_1.linear.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.6815956830978394,
+                "min": -0.6869626045227051,
+                "offset": -128,
+                "scale": 0.005366895347833633
+            }
+        ],
+        "model.fsmn_layer_2.affine.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.5128032565116882,
+                "min": -0.5168410539627075,
+                "offset": -128,
+                "scale": 0.0040378207340836525
+            }
+        ],
+        "model.fsmn_layer_2.fsmn_block.conv_left.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.6901204586029053,
+                "min": -0.6955544948577881,
+                "offset": -128,
+                "scale": 0.005434019491076469
+            }
+        ],
+        "model.fsmn_layer_2.linear.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.6847534775733948,
+                "min": -0.6901452541351318,
+                "offset": -128,
+                "scale": 0.0053917597979307175
+            }
+        ],
+        "model.fsmn_layer_3.affine.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.6430619359016418,
+                "min": -0.648125410079956,
+                "offset": -128,
+                "scale": 0.005063479766249657
+            }
+        ],
+        "model.fsmn_layer_3.fsmn_block.conv_left.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.6017994284629822,
+                "min": -0.6065379977226257,
+                "offset": -128,
+                "scale": 0.0047385781072080135
+            }
+        ],
+        "model.fsmn_layer_3.linear.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.47507569193840027,
+                "min": -0.4788164496421814,
+                "offset": -128,
+                "scale": 0.003740753512829542
+            }
+        ],
+        "model.in_linear1.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.735966145992279,
+                "min": -0.7417611479759216,
+                "offset": -128,
+                "scale": 0.005795008968561888
+            }
+        ],
+        "model.in_linear2.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.4786106050014496,
+                "min": -0.4823791980743408,
+                "offset": -128,
+                "scale": 0.0037685874849557877
+            }
+        ],
+        "model.out_linear1.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.42548540234565735,
+                "min": -0.4288356900215149,
+                "offset": -128,
+                "scale": 0.003350278828293085
+            }
+        ],
+        "model.out_linear2.linear.weight": [
+            {
+                "bitwidth": 8,
+                "dtype": "int",
+                "is_symmetric": "True",
+                "max": 0.41319721937179565,
+                "min": -0.41645073890686035,
+                "offset": -128,
+                "scale": 0.0032535213977098465
+            }
+        ]
+    },
+    "quantizer_args": {
+        "activation_bitwidth": 16,
+        "dtype": "int",
+        "is_symmetric": true,
+        "param_bitwidth": 8,
+        "per_channel_quantization": false,
+        "quant_scheme": "post_training_tf_enhanced"
+    },
+    "version": "0.6.1"
+}
